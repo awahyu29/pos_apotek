@@ -48,7 +48,7 @@
                                     <th>{{ __('Action') }}</th>
                                 </tr>
                             </thead>
-                            <tfoot>
+                            {{-- <tfoot>
                                 <tr>
                                     <th width="5%">{{ __('#') }}</th>
                                     <th>{{ __('Nama') }}</th>
@@ -58,7 +58,7 @@
                                     <th>{{ __('Stock') }}</th>
                                     <th>{{ __('Action') }}</th>
                                 </tr>
-                            </tfoot>
+                            </tfoot> --}}
                             <tbody>
                                 @php
                                     function idr($salary)

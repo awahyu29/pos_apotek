@@ -44,13 +44,13 @@
                                     <th>{{ __('Action') }}</th>
                                 </tr>
                             </thead>
-                            <tfoot>
+                            {{-- <tfoot>
                                 <tr>
                                     <th width="10%">{{ __('#') }}</th>
                                     <th>{{ __('jenis') }}</th>
                                     <th>{{ __('Action') }}</th>
                                 </tr>
-                            </tfoot>
+                            </tfoot> --}}
                             <tbody>
                                 @foreach ($jenis as $j)
                                     <tr>

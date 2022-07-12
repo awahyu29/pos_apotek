@@ -50,3 +50,15 @@
     </div>
 
 @endsection
+@push('js')
+<script>
+    $(document).ready(function() {
+        $('.select2-multiple').select2({
+            placeholder: "Select",
+            allowClear: true,
+            width:'100%',
+            theme: 'bootstrap4'
+        });
+    })
+</script>
+@endpush

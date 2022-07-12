@@ -50,7 +50,7 @@
                                     @endrole
                                 </tr>
                             </thead>
-                            <tfoot>
+                            {{-- <tfoot>
                                 <tr>
                                     <th>{{__('#')}}</th>
                                     <th>{{__('Name')}}</th>
@@ -59,7 +59,7 @@
                                     <th style="text-align: center">{{__('Action')}}</th>
                                     @endrole
                                 </tr>
-                            </tfoot>
+                            </tfoot> --}}
                             <tbody>
                                 @foreach ($departements as $departement)
                                     <tr>

@@ -1,5 +1,5 @@
 <!-- Input groups with icon -->
-<div class="form-group">
+{{-- <div class="form-group">
     <label class="form-control-label">{{__('Nama Barang')}}</label>
     <div class="input-group input-group-merge">
         <select class="form-control" data-toggle="select" name="nama" required>
@@ -14,6 +14,15 @@
             {{ $message }}
         </small>
     @enderror
+</div> --}}
+
+<div class="form-group{{ $errors->has('nama') ? ' has-danger' : '' }}">
+    <label class="form-control-label" for="select2Multiple">{{__('Nama Barang')}} ..</label>
+    <select multiple class="form-control select2-multiple" name="nama[]" id="select2Multiple">
+        @foreach ($barang as $s)
+        <option value="{{ $s->nama }}">{{ $s->nama }}</option>
+        @endforeach
+    </select>
 </div>
 
 <div class="form-group">

@@ -47,7 +47,7 @@
                                     <th>{{ __('Action') }}</th>
                                 </tr>
                             </thead>
-                            <tfoot>
+                            {{-- <tfoot>
                                 <tr>
                                     <th>{{ __('#') }}</th>
                                     <th>{{ __('Nama') }}</th>
@@ -56,7 +56,7 @@
                                     <th>{{ __('Email') }}</th>
                                     <th>{{ __('Action') }}</th>
                                 </tr>
-                            </tfoot>
+                            </tfoot> --}}
                             <tbody>
                                 @foreach ($suplier as $s)
                                     <tr>

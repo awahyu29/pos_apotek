@@ -49,7 +49,7 @@
                                     <th style="text-align: center">{{ __('Action') }}</th>
                                 </tr>
                             </thead>
-                            <tfoot>
+                            {{-- <tfoot>
                                 <tr>
                                     <th>{{ __('#') }}</th>
                                     <th>Users</th>
@@ -57,7 +57,7 @@
                                     <th style="text-align: center">Gender</th>
                                     <th style="text-align: center">{{ __('Action') }}</th>
                                 </tr>
-                            </tfoot>
+                            </tfoot> --}}
                             <tbody>
                                 @foreach ($users as $user)
                                     <tr>
